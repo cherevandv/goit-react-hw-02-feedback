@@ -1,6 +1,6 @@
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import s from './FeedbackOptions.module.css';
-const { Fragment } = require('react');
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <Fragment>

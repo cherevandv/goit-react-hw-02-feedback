@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 import Section from './components/Section/Section';
 import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
@@ -31,7 +31,6 @@ class App extends Component {
   render() {
     const { good, neutral, bad } = this.state;
     const totalFeedback = this.countTotalFeedback();
-    // const positiveFeedback = this.countPositiveFeedbackPercentage();
 
     return (
       <div className={s.container}>
